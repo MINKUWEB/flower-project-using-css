@@ -1,0 +1,230 @@
+*{
+		box-sizing: border-box;
+	}
+	body{
+		background-color: #c0c0c0;
+
+	}
+	#page{
+		width: 900px;
+		height: 890px;
+		/*border:  1px solid red;*/
+		margin: 0 auto; /* sare bich ke contemt ko center krne ke liye */
+	}
+	header{
+		width: 900px;
+		height: 181px;
+		float: left;
+		background-image: url(img/header.jpg);
+		padding-left: 20px;
+	}
+	#logopic{
+		width: 190px;
+		height: 66px;
+		float: left;
+		background-image: url(img/logo.gif);
+		margin-bottom: 55px;
+	}
+	nav{
+		width: 628px;
+		height: 42px;
+		background-image: url(img/menu_bg.jpg);
+		float: left;
+		clear: left;
+	}
+	#nav-bar{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	#nav-item{
+		display: inline-block;
+		margin-left: 10px;
+		padding-top: 10PX;
+		padding-left: 5px;
+		padding-bottom: 13px;
+		padding-right: 2px;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+		font-size: 15px;
+		font-family: sans-serif;
+	}
+	#nav-item:hover{
+            background-image: url(img/menu_bt_bg.gif);
+            background-repeat: repeat-x;
+            background-position:center ;
+	}
+	section{
+		width: 900px;
+		height: 849px;
+		background-color: white;
+		background-image: url(img/center_bg.gif);
+		float: left;
+		background-position: center;
+	}
+	#left_section{
+		width: 510px;
+		height: 809px;
+		/*border: 1px solid red;*/
+		float: left;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+	#right_section{
+		width: 390px;
+		height:809px ;
+		float: left;
+		border: 1px solid red;
+	}
+	#title_container{
+    width: 186px;
+    height: 25px;
+    float: left;
+    font-family: arial;
+    color: #A81F22;
+    font-size: 19px;
+    margin-bottom: 8px;
+
+	}
+	#title_icon{
+		float: left;
+	}
+	#title_text{
+		float: left;
+		padding: 0;
+		margin: 0;
+		margin-left: 4px;
+
+	}
+	#product_container{
+		width: 470px;
+		height: 160px;
+		/*border: 1px dashed; red;*/
+	float: left;
+	}
+	#product_pic_con{
+		width: 149px;
+		height: 137px;
+		float: left;
+		/*border: 0.5px solid red;
+*/	}
+	#about_product{
+		width:295px ;
+		height: 134px;
+		float: left;
+
+
+	}
+	#about_product_name{
+		font-size: 13px;
+		padding: 0;
+		margin: 0;
+		font-family: sans-serif;
+		color: #A81F22;
+		font-weight: bold;
+		padding-top:  5px ;
+		padding-left: 6px;
+	}
+	#about_product_des{
+     font-size: 15px;
+		padding-left: 6px;
+		      	}
+	#more_details{
+		font-family: arial;
+		text-align: right;
+		
+	}
+	.about_product_move{
+		margin-top: 1px;
+	}
+	#new_product_container{
+		width: 140px;
+		height: 135px;
+		margin-left: 15px;
+		float: left;
+      margin-top: 35px;
+     text-align: center;
+     color: #ccc;
+	}
+	.left{
+		clear: left;
+	}
+	#new_product_box{
+		width: 132px;
+		height: 106px;
+		float: left;
+		border-radius: 5px;
+		border: 1px solid #ccc;
+		background-image: url(img/new_icon.gif);
+		background-repeat: no-repeat;
+		background-position: top right;
+	}
+	#thumb1{
+		margin-top: 20px;
+	}
+	footer{
+		width: 900px;
+		height: 100px;
+		float: left;
+		/*border: 1px dashed #ccc;*/
+		background-image: url(img/footer_bg.gif);
+		background-repeat: no-repeat;
+		background-position: top bottom;
+	}
+	#flowershop_pic{
+  width: 510px;
+  height: 40px;
+  float: left;
+  /*border: 1px solid red;*/
+}
+#footer_nav{
+  width: 390px;
+  height: 40px;
+  float: right;
+}
+#footer_menu_item{
+	display: inline-block;
+	padding-left: 5px;
+
+}
+#footer_nav{
+	text-decoration: none;
+}
+#lang_box{
+	width: 134px;
+	height: 13px;
+	float: left;
+/*	border: 1px solid red;
+*/	color: red;
+	font-size: 12px;
+	font-family: arial;
+	padding: 10px;
+	box-sizing: content-box;
+}
+#curbox{
+  width: 162px;
+  height: 14px;
+  float: left;
+/*  border: 1px solid red;
+*/  box-sizing: content-box;
+  margin: 10px;
+}
+#curtxt{
+	color: red;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	float: left;
+
+}
+#currency{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	float: left;
+	padding: 2px;
+	margin-left: 3px;
+}
